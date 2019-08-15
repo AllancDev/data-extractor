@@ -1,7 +1,7 @@
 arquivo = open('c:/py/1.txt', 'r')
 
-data = arquivo.read()
+for line in arquivo: 
+    print(line.split('|'))
 
-arr = data.split('|')
-print(arr)
+
 arquivo.close
